@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "ZWWWKWebViewController.h"
+#import "DIYProtocol.h"
 @interface ViewController ()
 
 @end
@@ -20,10 +20,15 @@
 }
 
 - (IBAction)surf:(id)sender {
-    ZWWWKWebViewController *wkWebView = [ZWWWKWebViewController new];
-    wkWebView.url = @"https://www.so.com";
-    [self.navigationController pushViewController:wkWebView animated:YES];
-    
+    [DIYProtocol sharedRequestDIYProtocol].url = @"https://www.so.com";
+}
+
+- (IBAction)diyxy0:(id)sender {
+    [DIYProtocol sharedRequestDIYProtocol].url = @"XXXAPP://goJobPositionDetail?jobPositionId=1111&jxxxtttttt=23344";
+}
+
+- (IBAction)diyxy1:(id)sender {
+    [DIYProtocol sharedRequestDIYProtocol].url = @"XXXAPP://goWebView?url=http://baidu.com";
 }
 
 

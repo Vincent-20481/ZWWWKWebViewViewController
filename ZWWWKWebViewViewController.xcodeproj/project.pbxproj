@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50E00DAD1FF493D40005FCCF /* zwwBack@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E00DA91FF493D30005FCCF /* zwwBack@3x.png */; };
+		50E00DAE1FF493D40005FCCF /* zwwBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E00DAA1FF493D30005FCCF /* zwwBack@2x.png */; };
+		50E00DAF1FF493D40005FCCF /* zwwClose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E00DAB1FF493D40005FCCF /* zwwClose@2x.png */; };
+		50E00DB01FF493D40005FCCF /* zwwClose@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50E00DAC1FF493D40005FCCF /* zwwClose@3x.png */; };
 		B02F242A1FF34D0900ACBF04 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B02F24291FF34D0900ACBF04 /* AppDelegate.m */; };
 		B02F242D1FF34D0900ACBF04 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B02F242C1FF34D0900ACBF04 /* ViewController.m */; };
 		B02F24301FF34D0900ACBF04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02F242E1FF34D0900ACBF04 /* Main.storyboard */; };
@@ -14,14 +18,14 @@
 		B02F24351FF34D0900ACBF04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B02F24331FF34D0900ACBF04 /* LaunchScreen.storyboard */; };
 		B02F24381FF34D0900ACBF04 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B02F24371FF34D0900ACBF04 /* main.m */; };
 		B02F24411FF34F6800ACBF04 /* ZWWWKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B02F24401FF34F6800ACBF04 /* ZWWWKWebViewController.m */; };
-		B02F24451FF37BFE00ACBF04 /* zwwClose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B02F24431FF37BFE00ACBF04 /* zwwClose@2x.png */; };
-		B02F24481FF37C0800ACBF04 /* zwwBack@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B02F24461FF37C0800ACBF04 /* zwwBack@3x.png */; };
-		B02F24491FF37C0800ACBF04 /* zwwBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B02F24471FF37C0800ACBF04 /* zwwBack@2x.png */; };
-		B02F244B1FF37C4800ACBF04 /* zwwClose@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B02F244A1FF37C4800ACBF04 /* zwwClose@3x.png */; };
 		B02F244E1FF37CD500ACBF04 /* DIYProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = B02F244D1FF37CD500ACBF04 /* DIYProtocol.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		50E00DA91FF493D30005FCCF /* zwwBack@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zwwBack@3x.png"; sourceTree = "<group>"; };
+		50E00DAA1FF493D30005FCCF /* zwwBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zwwBack@2x.png"; sourceTree = "<group>"; };
+		50E00DAB1FF493D40005FCCF /* zwwClose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zwwClose@2x.png"; sourceTree = "<group>"; };
+		50E00DAC1FF493D40005FCCF /* zwwClose@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zwwClose@3x.png"; sourceTree = "<group>"; };
 		B02F24251FF34D0900ACBF04 /* ZWWWKWebViewViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZWWWKWebViewViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02F24281FF34D0900ACBF04 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B02F24291FF34D0900ACBF04 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -34,10 +38,6 @@
 		B02F24371FF34D0900ACBF04 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B02F243F1FF34F6800ACBF04 /* ZWWWKWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWWWKWebViewController.h; sourceTree = "<group>"; };
 		B02F24401FF34F6800ACBF04 /* ZWWWKWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWWWKWebViewController.m; sourceTree = "<group>"; };
-		B02F24431FF37BFE00ACBF04 /* zwwClose@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zwwClose@2x.png"; sourceTree = "<group>"; };
-		B02F24461FF37C0800ACBF04 /* zwwBack@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zwwBack@3x.png"; sourceTree = "<group>"; };
-		B02F24471FF37C0800ACBF04 /* zwwBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zwwBack@2x.png"; sourceTree = "<group>"; };
-		B02F244A1FF37C4800ACBF04 /* zwwClose@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zwwClose@3x.png"; sourceTree = "<group>"; };
 		B02F244C1FF37CD500ACBF04 /* DIYProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DIYProtocol.h; sourceTree = "<group>"; };
 		B02F244D1FF37CD500ACBF04 /* DIYProtocol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DIYProtocol.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,10 +89,10 @@
 		B02F243E1FF34EFE00ACBF04 /* ZWWWKWebViewController */ = {
 			isa = PBXGroup;
 			children = (
-				B02F24431FF37BFE00ACBF04 /* zwwClose@2x.png */,
-				B02F244A1FF37C4800ACBF04 /* zwwClose@3x.png */,
-				B02F24471FF37C0800ACBF04 /* zwwBack@2x.png */,
-				B02F24461FF37C0800ACBF04 /* zwwBack@3x.png */,
+				50E00DAA1FF493D30005FCCF /* zwwBack@2x.png */,
+				50E00DA91FF493D30005FCCF /* zwwBack@3x.png */,
+				50E00DAB1FF493D40005FCCF /* zwwClose@2x.png */,
+				50E00DAC1FF493D40005FCCF /* zwwClose@3x.png */,
 				B02F243F1FF34F6800ACBF04 /* ZWWWKWebViewController.h */,
 				B02F24401FF34F6800ACBF04 /* ZWWWKWebViewController.m */,
 				B02F244C1FF37CD500ACBF04 /* DIYProtocol.h */,
@@ -160,12 +160,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B02F24351FF34D0900ACBF04 /* LaunchScreen.storyboard in Resources */,
-				B02F24481FF37C0800ACBF04 /* zwwBack@3x.png in Resources */,
+				50E00DAD1FF493D40005FCCF /* zwwBack@3x.png in Resources */,
+				50E00DAE1FF493D40005FCCF /* zwwBack@2x.png in Resources */,
 				B02F24321FF34D0900ACBF04 /* Assets.xcassets in Resources */,
-				B02F24491FF37C0800ACBF04 /* zwwBack@2x.png in Resources */,
-				B02F24451FF37BFE00ACBF04 /* zwwClose@2x.png in Resources */,
+				50E00DAF1FF493D40005FCCF /* zwwClose@2x.png in Resources */,
 				B02F24301FF34D0900ACBF04 /* Main.storyboard in Resources */,
-				B02F244B1FF37C4800ACBF04 /* zwwClose@3x.png in Resources */,
+				50E00DB01FF493D40005FCCF /* zwwClose@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

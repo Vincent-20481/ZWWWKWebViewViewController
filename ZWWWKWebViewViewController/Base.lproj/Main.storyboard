@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="VxB-6h-aov">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="VxB-6h-aov">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -26,17 +26,41 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="0Yb-2A-yQd"/>
                                 </constraints>
-                                <state key="normal" title="点击开始冲浪"/>
+                                <state key="normal" title="点击打开网址@&quot;https://so.com&quot;"/>
                                 <connections>
                                     <action selector="surf:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QCI-fM-hjj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sta-Cj-4ku">
+                                <rect key="frame" x="0.0" y="371" width="375" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="bQg-f2-xQb"/>
+                                </constraints>
+                                <state key="normal" title="自定义协议@&quot;XXXAPP://goJobPositionDetail?jobPositionId=1111&quot;"/>
+                                <connections>
+                                    <action selector="diyxy0:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HYk-aR-jYf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OIg-7Q-DM3">
+                                <rect key="frame" x="-51" y="419" width="479" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="8gf-5R-5YX"/>
+                                </constraints>
+                                <state key="normal" title="自定义协议@&quot;XXXAPP://goWebView?url=http://baidu.com&amp;title=测试&quot;"/>
+                                <connections>
+                                    <action selector="diyxy1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="S79-je-Iep"/>
                                 </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="fHf-9a-qP1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="9Aa-55-wIm"/>
+                            <constraint firstAttribute="trailing" secondItem="Sta-Cj-4ku" secondAttribute="trailing" id="IXk-rE-IcW"/>
                             <constraint firstItem="fHf-9a-qP1" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="IhY-ow-wtQ"/>
+                            <constraint firstItem="OIg-7Q-DM3" firstAttribute="top" secondItem="Sta-Cj-4ku" secondAttribute="bottom" constant="18" id="P8g-jf-u65"/>
                             <constraint firstAttribute="trailing" secondItem="fHf-9a-qP1" secondAttribute="trailing" id="Q3K-BA-csU"/>
+                            <constraint firstItem="Sta-Cj-4ku" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jqh-Ah-jkI"/>
+                            <constraint firstItem="Sta-Cj-4ku" firstAttribute="top" secondItem="fHf-9a-qP1" secondAttribute="bottom" constant="22.5" id="oIj-m5-gmL"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="aGn-j4-euw"/>
